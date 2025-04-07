@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <!-- Removed the Settings menu item
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+    -->
+
+    <item
+        android:id="@+id/option1"
+        android:orderInCategory="1"
+        android:title="Show List"
+        app:showAsAction="never"
+        android:onClick="onOption1" />
+
+    <item
+        android:id="@+id/option2"
+        android:orderInCategory="2"
+        android:title="Show List in Reverse Order"
+        app:showAsAction="never"
+        android:onClick="onOption2" />
+
+    <item
+        android:id="@+id/option3"
+        android:orderInCategory="3"
+        android:title="Show Size of List"
+        app:showAsAction="never"
+        android:onClick="onOption3" />
+
+    <item
+        android:id="@+id/option4"
+        android:orderInCategory="4"
+        android:title="Insert a String"
+        app:showAsAction="never"
+        android:onClick="onOption4" />
+
+    <item
+        android:id="@+id/option5"
+        android:orderInCategory="5"
+        android:title="Remove a String"
+        app:showAsAction="never"
+        android:onClick="onOption5" />
+
+    <item
+        android:id="@+id/option6"
+        android:orderInCategory="6"
+        android:title="Remove All Strings"
+        app:showAsAction="never"
+        android:onClick="onOption6" />
+
+</menu>

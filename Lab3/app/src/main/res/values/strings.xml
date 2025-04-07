@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">List Processor</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu options -->
+    <string name="option1">Show List</string>
+    <string name="option2">Show List in Reverse Order</string>
+    <string name="option3">Show Size of List</string>
+    <string name="option4">Insert a String</string>
+    <string name="option5">Remove a String</string>
+    <string name="option6">Remove All Strings</string>
+
+    <!-- Activity prompts -->
+    <string name="add_item_prompt">Enter a new item:</string>
+    <string name="position_prompt">Position:</string>
+    <string name="remove_item_prompt">Indicate the position of the item to be removed:</string>
+    <string name="button_add">Add</string>
+    <string name="button_remove">Remove</string>
+</resources>
